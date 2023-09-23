@@ -533,3 +533,122 @@ p.CardHeader {
   font-size: 75px;
   letter-spacing: 2%;
 }
+.Sec7MainCont {
+  background-color: #145389;
+  margin-top: 100px;
+  height: 896.33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Sec7LeftCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+.Sec7Head {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  letter-spacing: 2%;
+  color: white;
+  line-height: 57.6px;
+  text-transform: uppercase;
+}
+
+.Sec7Text {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 2%;
+  color: #f6f8ff;
+  line-height: 48px;
+}
+.Sec7FormCont {
+  display: flex;
+  flex-direction: column;
+}
+.Sec7Input {
+  width: 592.2px;
+  height: 49px;
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 3px solid white;
+  padding-bottom: 2%;
+  padding-top: 5%;
+}
+input::placeholder {
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  opacity: 50%;
+}
+.Sec7Check {
+  width: 32px;
+  height: 32px;
+}
+.Sec7CheckCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Sec7LeftInnerCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Sec7ButtonCont {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 272px;
+  height: 75px;
+  border-radius: 16px;
+  align-items: center;
+  -webkit-box-shadow: 0px 4px 13px -1px #0b1519;
+  -moz-box-shadow: 0px 4px 13px -1px #0b1519;
+  box-shadow: 0px 4px 13px -1px #0b1519;
+  cursor: pointer;
+}
+.Sec7ButtonCont:hover {
+  background-color: #145389;
+  transition: 0.3s ease;
+  -webkit-box-shadow: 0px 4px 13px -1px #ffff;
+  -moz-box-shadow: 0px 4px 13px -1px #ffff;
+  box-shadow: 0px 4px 13px -1px #ffff;
+}
+.Sec7ButtonCont:not(:hover) {
+  transition: 0.3s ease;
+}
+
+.Sec7Button {
+  display: flex;
+  width: 272px;
+  height: 75px;
+  color: #145389;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.Sec7Button:hover {
+  color: white;
+  transition: 0.3s ease;
+}
+.Sec7Button:not(:hover) {
+  transition: 0.3s ease;
+}
+.Sec7CheckText {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+  color: white;
+  line-height: 30px;
+  margin-left: 20px;
+}

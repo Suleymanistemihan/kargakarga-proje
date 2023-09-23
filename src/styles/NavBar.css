@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: space-around;
 }
-li.NavButtons {
+.NavButtons {
   background-color: #0c0e0f;
   padding: 14px;
   border-radius: 18px;
@@ -29,7 +29,7 @@ li.NavButtons {
   -moz-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
   box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
 }
-li.NavButtons2 {
+.NavButtons2 {
   background-color: #145389;
   padding: 16px;
   border-radius: 18px;
@@ -37,14 +37,14 @@ li.NavButtons2 {
   -moz-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
   box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
 }
-li.NavButtons:hover {
+.NavButtons:hover {
   cursor: pointer;
 }
-li.NavButtons2:hover {
+.NavButtons2:hover {
   cursor: pointer;
   transition: 0.3s ease;
   background-color: #0b2e4e;
 }
-li.NavButtons2:not(:hover) {
+.NavButtons2:not(:hover) {
   transition: 0.3s ease;
 }

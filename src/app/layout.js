@@ -1,13 +1,14 @@
+import Footer from "@/components/Footer";
 import "../styles/Main.css";
-import NavBar from "@/layout/NavBar";
-import HomeScreen from "@/pages/HomeScreen";
+import NavBar from "@/components/NavBar";
 
-export default function RootLayout() {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
         <NavBar />
-        <HomeScreen />
+        {children}
+        <Footer />
       </body>
     </html>
   );
