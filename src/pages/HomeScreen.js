@@ -306,6 +306,52 @@ export default function HomeScreen() {
                 </p>
               </div>
             </li>
+            <li className="Sec4CardCont">
+              <div className="Sec4CardInner">
+                <div>
+                  <img
+                    src="/images/Rectangle 4451.svg"
+                    width={72}
+                    height={72}
+                  />
+                </div>
+                <div className="Sec4CardHeaderCont">
+                  <p className="Sec4CardHeaderH">High voltage mayonnaise</p>
+                  <p className="Sec4CardHeaderT">March 11, 2020 at 23:03</p>
+                </div>
+              </div>
+              <div className="Sec4CardPCont">
+                <p className="Sec4CardP">
+                  He is a wonderful artist, a master of his craft, and he
+                  completed the work on time, in just a couple of days, and at
+                  the highest level. He implements all ideas exactly.
+                  Communicates with clients politely. The best!
+                </p>
+              </div>
+            </li>
+            <li className="Sec4CardCont">
+              <div className="Sec4CardInner">
+                <div>
+                  <img
+                    src="/images/Rectangle 4451.svg"
+                    width={72}
+                    height={72}
+                  />
+                </div>
+                <div className="Sec4CardHeaderCont">
+                  <p className="Sec4CardHeaderH">High voltage mayonnaise</p>
+                  <p className="Sec4CardHeaderT">March 11, 2020 at 23:03</p>
+                </div>
+              </div>
+              <div className="Sec4CardPCont">
+                <p className="Sec4CardP">
+                  He is a wonderful artist, a master of his craft, and he
+                  completed the work on time, in just a couple of days, and at
+                  the highest level. He implements all ideas exactly.
+                  Communicates with clients politely. The best!
+                </p>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -328,13 +374,47 @@ export default function HomeScreen() {
         </div>
         <div className="Sec5RightCont">
           <div className="Sec5ImgCont">
-            <img className="Sec5Img"
+            <img
+              className="Sec5Img"
               src="/images/Free_iPhone_12_Mockup_3 1.svg"
               width={848}
               height={520}
             />
           </div>
         </div>
+      </div>
+      {/* SECTION 6 */}
+      <div className="Sec6MainCont">
+        <div className="Ellipse3Cont">
+          <div className="Ellipse3"></div>
+        </div>
+        <p className="Sec6Faq">faq</p>
+      </div>
+      <div className="Sec6TableCont">
+        <ul className="Sec6QuestionsTable">
+          <li className="Sec6Questions">
+            <p className="Question">What is outsourcing?</p>
+            <p className="Plus">+</p>
+          </li>
+          <li className="Sec6Questions">
+            <p className="Question">
+              What do I need to get started on my project?
+            </p>
+            <p className="Plus">+</p>
+          </li>
+          <li className="Sec6Questions">
+            <p className="Question">
+              How does the process of working on a project work?
+            </p>
+            <p className="Plus">+</p>
+          </li>
+          <li className="Sec6Questions">
+            <p className="Question">
+              Why is it beneficial to outsource the art component?
+            </p>
+            <p className="Plus">+</p>
+          </li>
+        </ul>
       </div>
     </div>
   );

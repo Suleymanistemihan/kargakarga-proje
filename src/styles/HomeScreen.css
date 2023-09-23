@@ -483,5 +483,53 @@ p.CardHeader {
 }
 .Sec5Img:hover {
   transition: 0.3s ease;
-  transform: scale(0.9) rotate(35deg);
+  transform: scale(1.2);
+}
+.Sec5Img:not(:hover) {
+  transition: 0.3s ease;
+}
+
+/* SECTION 6 */
+.Sec6MainCont {
+  margin-top: 100px;
+}
+.Sec6Faq {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 120px;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+}
+.Sec6TableCont {
+  height: 604px;
+}
+.Sec6QuestionsTable {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+}
+.Sec6Questions {
+  border-radius: 16px;
+  width: 1700px;
+  height: 139px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.Question {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 2%;
+  margin-left: 50px;
+}
+.Plus {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 75px;
+  letter-spacing: 2%;
 }
