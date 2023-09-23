@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+
+.MainCont {
+  width: 1808px;
+}
+
+p.SliderText1 {
+  margin-top: -121px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  width: 687px;
+  height: 196px;
+  text-transform: uppercase;
+  line-height: 75px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+p.SliderText2 {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.JoinButtonCont {
+  display: flex;
+  justify-content: center;
+  background-color: #145389;
+  width: 121px;
+  height: 55px;
+  border-radius: 16px;
+  align-items: center;
+  -webkit-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+  box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+}
+.JoinButtonCont:hover {
+  cursor: pointer;
+  background-color: #0b2e4e;
+}
+
+p.JoinText {
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.MainInnerCont {
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SliderCont {
+  display: flex;
+  margin-top: 180px;
+}
+.SliderPhotoCont {
+  display: flex;
+  flex-direction: row;
+  width: 766px;
+  overflow: hidden;
+}
+.ImageStyle {
+  width: 766px;
+  height: 420px;
+}
+.Ellipse {
+  z-index: -1;
+  margin-top: -600px;
+  margin-left: 350px;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: #4148ff;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 200px white, inset 0 0 90px white,
+    inset 0 0 200px white, inset 0 0 70px white, inset 0 0 200px white,
+    inset 0 0 200px white, inset 0 0 40px white, inset 0 0 30px white,
+    inset 0 0 200px white, inset 0 0 10px red;
+  animation: ripple 15s linear infinite;
+}
+@keyframes ripple {
+  0% {
+    box-shadow: inset -5px -5px 100px white, inset 0 0 90px white,
+      inset 0 0 250px white, inset 0 0 70px white, inset 0 0 60px white,
+      inset 0 0 250px white, inset 0 0 40px white, inset 0 0 30px white,
+      inset 0 0 250px white, inset 0 0 10px red;
+  }
+  50% {
+    box-shadow: inset -5px -5px 20px white, inset 0 0 15px white,
+      inset 0 0 150px white, inset 0 0 5px white, inset 0 0 3px white,
+      inset 0 0 100px white, inset 0 0 1px white, inset 0 0 0px white,
+      inset 0 0 60px white, inset 0 0 0px red;
+  }
+  100% {
+    box-shadow: inset -5px -5px 100px white, inset 0 0 90px white,
+      inset 0 0 250px white, inset 0 0 70px white, inset 0 0 60px white,
+      inset 0 0 250px white, inset 0 0 40px white, inset 0 0 30px white,
+      inset 0 0 250px white, inset 0 0 10px red;
+  }
+}
+/* SECTION 2 */
+.ServiceMainCont {
+  overflow: hidden;
+  width: 1808px;
+}
+
+p.ServiceHeader {
+  font-weight: 800;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 48px;
+  line-height: 56.25px;
+  letter-spacing: 2%;
+  margin-left: 48px;
+  text-transform: uppercase;
+}
+.ServiceCardCont {
+  height: 1002px;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.ServiceCard {
+  display: flex;
+  width: 440px;
+  height: 440px;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.CardImgCont {
+  width: 400px;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.CardImages {
+  border-radius: 25px;
+}
+.CardImages:hover {
+  cursor: pointer;
+  transition: 0.3s ease;
+  transform: scale(1.1);
+}
+.CardImages:not(:hover) {
+  transition: 0.3s ease;
+}
+
+p.CardHeader {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: #0b1519;
+}
+
+.EllipseCont {
+  z-index: -1;
+  position: absolute;
+  width: 340px;
+  height: 500px;
+  border-right-width: 50px;
+  margin-top: -150px;
+  margin-left: 1500px;
+  overflow: hidden;
+}
+
+.Ellipse2 {
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+  background-color: #4148ff;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 200px white, inset 0 0 90px white,
+    inset 0 0 200px white, inset 0 0 70px white, inset 0 0 200px white,
+    inset 0 0 200px white, inset 0 0 40px white, inset 0 0 30px white,
+    inset 0 0 200px white, inset 0 0 10px red;
+  animation: ripple 15s linear infinite;
+}
+@keyframes ripple {
+  0% {
+    box-shadow: inset -5px -5px 100px white, inset 0 0 90px white,
+      inset 0 0 250px white, inset 0 0 70px white, inset 0 0 60px white,
+      inset 0 0 250px white, inset 0 0 40px white, inset 0 0 30px white,
+      inset 0 0 250px white, inset 0 0 10px red;
+  }
+  50% {
+    box-shadow: inset -5px -5px 20px white, inset 0 0 15px white,
+      inset 0 0 150px white, inset 0 0 5px white, inset 0 0 3px white,
+      inset 0 0 100px white, inset 0 0 1px white, inset 0 0 0px white,
+      inset 0 0 60px white, inset 0 0 0px red;
+  }
+  100% {
+    box-shadow: inset -5px -5px 100px white, inset 0 0 90px white,
+      inset 0 0 250px white, inset 0 0 70px white, inset 0 0 60px white,
+      inset 0 0 250px white, inset 0 0 40px white, inset 0 0 30px white,
+      inset 0 0 250px white, inset 0 0 10px red;
+  }
+}
+.DardAb {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0b1519;
+  opacity: 50%;
+}
+
+/* SECTION 3 */
+
+.Sec3MainCont {
+  height: 763px;
+}
+/* First Part */
+
+.Sec3FirstPart {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.Ellipse3Cont {
+  z-index: -1;
+  position: absolute;
+  margin-top: -100px;
+  width: 350px;
+  height: 350px;
+}
+.Ellipse3 {
+  overflow: hidden;
+  height: 350px;
+  width: 350px;
+  margin-left: -100px;
+  background-color: #4148ff;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 200px white, inset 0 0 90px white,
+    inset 0 0 200px white, inset 0 0 70px white, inset 0 0 200px white,
+    inset 0 0 200px white, inset 0 0 40px white, inset 0 0 30px white,
+    inset 0 0 200px white, inset 0 0 10px red;
+  animation: ripple 15s linear infinite;
+}
+@keyframes ripple {
+  0% {
+    box-shadow: inset -5px -5px 100px white, inset 0 0 90px white,
+      inset 0 0 250px white, inset 0 0 70px white, inset 0 0 60px white,
+      inset 0 0 250px white, inset 0 0 40px white, inset 0 0 30px white,
+      inset 0 0 250px white, inset 0 0 10px red;
+  }
+  50% {
+    box-shadow: inset -5px -5px 20px white, inset 0 0 15px white,
+      inset 0 0 150px white, inset 0 0 5px white, inset 0 0 3px white,
+      inset 0 0 100px white, inset 0 0 1px white, inset 0 0 0px white,
+      inset 0 0 60px white, inset 0 0 0px red;
+  }
+  100% {
+    box-shadow: inset -5px -5px 100px white, inset 0 0 90px white,
+      inset 0 0 250px white, inset 0 0 70px white, inset 0 0 60px white,
+      inset 0 0 250px white, inset 0 0 40px white, inset 0 0 30px white,
+      inset 0 0 250px white, inset 0 0 10px red;
+  }
+}
+.Sec3LeftCont {
+  width: 864px;
+  height: 300px;
+  margin-top: -25px;
+}
+.Sec3LeftText {
+  height: 300px;
+  font-weight: 800;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  margin-left: 56px;
+  text-transform: uppercase;
+}
+.Sec3RightCont {
+  width: 744.2px;
+  height: 136px;
+}
+.Sec3RightText {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33.6px;
+  height: 300px;
+}
+
+/* Secont Part */
+
+.Sec3SecondPart {
+  height: 580px;
+}
+.Sec3CardCont {
+  height: 580px;
+  display: flex;
+  padding-left: 0px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.Sec3Card {
+  border-radius: 16px;
+  width: 440px;
+  height: 378px;
+  list-style: none;
+  -webkit-box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.75);
+}
+.Sec3Cardh {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.16px;
+}
+.Sec3Cardp {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.Sec3ImgCont {
+  width: 440px;
+  height: 378px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.Sec3Img:hover {
+  cursor: pointer;
+  transition: 0.3s ease;
+  transform: scale(1.1);
+}
+.Sec3Img:not(:hover) {
+  transition: 0.3s ease;
+}
+
+/* SECTION 4 */
+
+.Sec4MainCont {
+  margin-top: 140px;
+  height: 514px;
+}
+.Sec4HainHeader {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 120px;
+}
+.Sec4CardSlideCont {
+  width: 1808px;
+  overflow: scroll;
+  height: 514px;
+  overflow-y: hidden;
+}
+
+.Sec4CardMainCont {
+  display: flex;
+  width: 5000px;
+  height: 430px;
+  list-style: none;
+}
+.Sec4CardCont {
+  display: flex;
+  border-radius: 16px;
+  width: 744px;
+  height: 430px;
+  margin-right: 24px;
+  flex-direction: column;
+  background-color: white;
+  -webkit-box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.75);
+}
+.Sec4CardInner {
+  margin-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+.Sec4CardHeaderCont {
+  margin-left: 50px;
+}
+.Sec4CardHeaderH {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.16px;
+}
+.Sec4CardHeaderT {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  opacity: 30%;
+}
+.Sec4CardPCont {
+  width: 648px;
+  height: 204px;
+  margin-left: 50px;
+}
+.Sec4CardP {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33.6px;
+  opacity: 80%;
+}

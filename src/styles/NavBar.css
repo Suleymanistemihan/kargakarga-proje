@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+
+.NavBarCont {
+  width: 1808.2px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+
+.NavButtonCont {
+  list-style: none;
+  display: flex;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  width: 556px;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+li.NavButtons {
+  background-color: #0c0e0f;
+  padding: 14px;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+  box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+}
+li.NavButtons2 {
+  background-color: #145389;
+  padding: 16px;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+  box-shadow: 0px 4px 13px -1px rgba(0, 0, 0, 0.49);
+}
+li.NavButtons:hover {
+  cursor: pointer;
+}
+li.NavButtons2:hover {
+  cursor: pointer;
+  background-color: #0b2e4e;
+}
