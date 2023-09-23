@@ -309,6 +309,33 @@ export default function HomeScreen() {
           </ul>
         </div>
       </div>
+      {/* SECTION 5 */}
+      <div className="Sec5MainCont">
+        <div className="Sec5LeftCont">
+          <div className="Sec5HeaderCont">
+            <p className="Sec5Header">
+              Hey! You can send us a message to start working on the project
+            </p>
+          </div>
+          <div className="Sec5ButtonMainCont">
+            <div className="Sec5ButtonCont">
+              <p className="Sec5Button">Start the Project</p>
+            </div>
+            <p className="Sec5BottomText">
+              Or write to us at: <br></br>info@kargakarga.com
+            </p>
+          </div>
+        </div>
+        <div className="Sec5RightCont">
+          <div className="Sec5ImgCont">
+            <img className="Sec5Img"
+              src="/images/Free_iPhone_12_Mockup_3 1.svg"
+              width={848}
+              height={520}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

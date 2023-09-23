@@ -42,5 +42,9 @@ li.NavButtons:hover {
 }
 li.NavButtons2:hover {
   cursor: pointer;
+  transition: 0.3s ease;
   background-color: #0b2e4e;
+}
+li.NavButtons2:not(:hover) {
+  transition: 0.3s ease;
 }

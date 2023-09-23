@@ -36,9 +36,12 @@ p.SliderText2 {
 }
 .JoinButtonCont:hover {
   cursor: pointer;
+  transition: 0.3s ease;
   background-color: #0b2e4e;
 }
-
+.JoinButtonCont:not(:hover) {
+  transition: 0.3s ease;
+}
 p.JoinText {
   color: white;
   font-family: "Roboto Flex", sans-serif;
@@ -408,4 +411,77 @@ p.CardHeader {
   font-size: 24px;
   line-height: 33.6px;
   opacity: 80%;
+}
+
+/* SECTION 5 */
+
+.Sec5MainCont {
+  display: flex;
+  margin-top: 200px;
+  height: 550px;
+  background-color: #0b1519;
+}
+.Sec5LeftCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Sec5Header {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 67.2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 100px;
+}
+.Sec5ButtonMainCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Sec5Button {
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+}
+.Sec5ButtonCont {
+  display: flex;
+  justify-content: center;
+  background-color: #145389;
+  width: 288px;
+  height: 75px;
+  border-radius: 16px;
+  align-items: center;
+  -webkit-box-shadow: 0px 4px 13px -1px #7c7930;
+  -moz-box-shadow: 0px 4px 13px -1px #7c7930;
+  box-shadow: 0px 4px 13px -1px #7c7930;
+  cursor: pointer;
+}
+.Sec5ButtonCont:hover {
+  background-color: #0b2e4e;
+  transition: 0.3s ease;
+}
+.Sec5ButtonCont:not(:hover) {
+  transition: 0.3s ease;
+}
+
+.Sec5BottomText {
+  color: #ffffff;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1.5%;
+}
+.Sec5ImgCont {
+  width: 848px;
+  height: 520px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.Sec5Img:hover {
+  transition: 0.3s ease;
+  transform: scale(0.9) rotate(35deg);
 }
